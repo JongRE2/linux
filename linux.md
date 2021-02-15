@@ -1,4 +1,4 @@
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210214220630959.png" alt="image-20210214220630959" style="zoom:50%;" /> 
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\1" alt="image-20210214220630959" style="zoom:50%;" /> 
 
 운영체제 : 하드웨어를 관리, 제어 해주는 역할을 한다.( + 이런 하드웨어를 편리하게 다룰수있게 사용자에게 유저인터페이스를 제공해준다.)
 
@@ -10,7 +10,7 @@
 
 
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210214222244447.png" alt="image-20210214222244447" style="zoom:50%;" /> 
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\2" alt="image-20210214222244447" style="zoom:50%;" /> 
 
 shell?
 
@@ -18,11 +18,11 @@ shell?
 
  참고로 명령어들은 다 실행하는 프로그램이다. 그래서 system에 들어가서 확인해보면 ipconfig명령어에 대한 ipconfig.exe라는 프로그램이 존재한다.
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210214222648089.png" alt="image-20210214222648089" style="zoom:67%;" /> 
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\3" alt="image-20210214222648089" style="zoom:67%;" /> 
 
 `#` : 권한 같은걸 의미한다.
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210214222742645.png" alt="image-20210214222742645" style="zoom:67%;" /> 
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\4" alt="image-20210214222742645" style="zoom:67%;" /> 
 
 커널?
 
@@ -80,7 +80,7 @@ ls -ld /kjy : 특정디렉토리의 안이 아니라 그 디렉토리자체의 �
 
 
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215003943405.png" alt="image-20210215003943405" style="zoom:67%;" />
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\5" alt="image-20210215003943405" style="zoom:67%;" />
 
 하드링크와 비슷한개념으로 윈도우에 심볼릭링크라는 개념이 있다. 그것의 의미는 윈도우의 단축아이콘이라고 생각하면 된다. 그래서 여기서 간단히만 설명하면 해당파일의 단축아이콘 갯수라고 생각하면 된다.(정확한 개념은 아니다. 나중에 배울것임)
 
@@ -164,11 +164,11 @@ cp -r [원본경로] [이동할경로]
 
 ### 파일관련 명령어
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215015510061.png" alt="image-20210215015510061" style="zoom:67%;" /> 
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\6" alt="image-20210215015510061" style="zoom:67%;" /> 
 
 
 
-#### <img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215015809834.png" alt="image-20210215015809834" style="zoom:67%;" /> 
+#### <img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\7" alt="image-20210215015809834" style="zoom:67%;" /> 
 
 #### 
 
@@ -217,11 +217,11 @@ cat [보려는파일경로] | head -5
 
 #### vi편집기
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215021925098.png" alt="image-20210215021925098" style="zoom:67%;" />
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\8" alt="image-20210215021925098" style="zoom:67%;" /> 
 
 :vi편집기는  3가지 모드가 있다!
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215022020768.png" alt="image-20210215022020768" style="zoom:67%;" /> 
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\9" alt="image-20210215022020768" style="zoom:67%;" /> 
 
 커서를 이동할때는 '명령모드'에서 해야한다.
 
@@ -233,11 +233,11 @@ i,a,o는 각각 편집모드로 넘어갈때 커서의 위치가 다르다.
 
 ##### command모드
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215022649273.png" alt="image-20210215022649273" style="zoom:67%;" />
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\10" alt="image-20210215022649273" style="zoom:67%;" />
 
 (이것 말고도 많음.)
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215023025137.png" alt="image-20210215023025137" style="zoom:67%;" /> 
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\11" alt="image-20210215023025137" style="zoom:67%;" /> 
 
 >삭제되거나 했을때 '되돌리기'는 u를 누른다!!
 >
@@ -256,7 +256,7 @@ d를 누르고 w를 누르면 d를 누른위치부터 한단어만큼 삭제된�
 이런식으로 응용해서 활용한다.
 ~~~
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215023603282.png" alt="image-20210215023603282" style="zoom:67%;" />
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\12" alt="image-20210215023603282" style="zoom:67%;" />
 
 ~~~shell
 #현재 커서가 위치한곳포함해서 아래로 여러줄을 복사하기!
@@ -267,13 +267,13 @@ d를 누르고 w를 누르면 d를 누른위치부터 한단어만큼 삭제된�
 
 ##### edit모드
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215023735734.png" alt="image-20210215023735734" style="zoom:67%;" /> 
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\13" alt="image-20210215023735734" style="zoom:67%;" /> 
 
 
 
 ##### Last Line모드
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215023803253.png" alt="image-20210215023803253" style="zoom:67%;" />
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\14" alt="image-20210215023803253" style="zoom:67%;" />
 
 참고>'(2)검색 및 반환' 내용에서 한꺼번에 바꾸고 싶지않으면 /g를 뺀다.
 
@@ -285,7 +285,7 @@ d를 누르고 w를 누르면 d를 누른위치부터 한단어만큼 삭제된�
 
 
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215024047888.png" alt="image-20210215024047888" style="zoom:67%;" /> 
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\15" alt="image-20210215024047888" style="zoom:67%;" /> 
 
 참고> !는 '강제'를 의미한다.
 
@@ -293,17 +293,19 @@ d를 누르고 w를 누르면 d를 누른위치부터 한단어만큼 삭제된�
 
 #### nano편집기
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215030151612.png" alt="image-20210215030151612" style="zoom:67%;" />![image-20210215030219111](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215030219111.png) 
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\16" alt="image-20210215030151612" style="zoom:67%;" />
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215030219111.png" alt="image-20210215030219111" /> 
+![image-20210215030219111](C:\Users\kjy59\Desktop\study\linux\linux_pic\17) 
+
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\18" alt="image-20210215030219111" /> 
 
  
 
-![image-20210215030339291](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215030339291.png) 
+![image-20210215030339291](C:\Users\kjy59\Desktop\study\linux\linux_pic\19) 
 
-![image-20210215030458542](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215030458542.png)
+![image-20210215030458542](C:\Users\kjy59\Desktop\study\linux\linux_pic\20) 
 
-![image-20210215030526984](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215030526984.png)
+![image-20210215030526984](C:\Users\kjy59\Desktop\study\linux\linux_pic\21) 
 
 
 
@@ -313,18 +315,19 @@ d를 누르고 w를 누르면 d를 누른위치부터 한단어만큼 삭제된�
 
 ### 파일검색 - grep이론
 
-![image-20210215031000755](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215031000755.png)
+![image-20210215031000755](C:\Users\kjy59\Desktop\study\linux\linux_pic\22) 
 
-![image-20210215031040614](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215031040614.png) 
+![image-20210215031040614](C:\Users\kjy59\Desktop\study\linux\linux_pic\23) 
 
 -i옵션 : 대소문자를 구분하지말고 찾으라는 의미다.
 
-<img src="C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215031156115.png" alt="image-20210215031156115" style="zoom:67%;" />
+<img src="C:\Users\kjy59\Desktop\study\linux\linux_pic\24" alt="image-20210215031156115" style="zoom:67%;" /> 
 
 -w옵션은 단어가 완전히 일치한것만 찾는다.
 
-![image-20210215031348364](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215031348364.png)
+![image-20210215031348364](C:\Users\kjy59\Desktop\study\linux\linux_pic\25) 
 
+~~~
 r* 의 의미 : r로 시작하는 모든 단어들
 
 r.의 의미 : r다음에 한문자만 오는경우의 단어
@@ -336,6 +339,9 @@ r.의 의미 : r다음에 한문자만 오는경우의 단어
 [1-5]oot의 의미 : 1부터 5까지라는 의미로, 1oot,2oot,3oot,4oot,5oot까지 출력된다.
 
 [a-c,g-h]oot의 의미 : aoot,boot,coot, goot,hoot들이 출력된다.
+~~~
+
+
 
 ~~~
 grep [a-c,g-h]oot[2-8] ./test과 같은 코드 = 
@@ -346,19 +352,19 @@ grep [a-c,g-h]oot ./test | grep root[2-8]
 
 
 
-![image-20210215031735983](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215031735983.png) 
+![image-20210215031735983](C:\Users\kjy59\Desktop\study\linux\linux_pic\26) 
 
 
 
 ### 디렉토리검색 - find이론
 
-![image-20210215033115708](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215033115708.png)
+![image-20210215033115708](C:\Users\kjy59\Desktop\study\linux\linux_pic\27)
 
 -exec rm -rf부분이 [행동]을 의미하는데 행동을 따로 지정하지않으면 여기에 print라는 [행동]이 default값이 있는것이다. 
 
-![image-20210215080242732](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215080242732.png)
+![image-20210215080242732](C:\Users\kjy59\Desktop\study\linux\linux_pic\28)
 
-![image-20210215080532120](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215080532120.png)
+![image-20210215080532120](C:\Users\kjy59\Desktop\study\linux\linux_pic\29)
 
 ~~~
 예>
@@ -377,9 +383,9 @@ find ./ -name test -exec rm -rf {} \; : 현재위치에서 이름이 test인파�
 
 ### 하드링크와 심볼릭링크
 
-![image-20210215082014569](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215082014569.png)
+![image-20210215082014569](C:\Users\kjy59\Desktop\study\linux\linux_pic\30)
 
-![image-20210215082106188](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215082106188.png)
+![image-20210215082106188](C:\Users\kjy59\Desktop\study\linux\linux_pic\31)
 
 하드링크란? 극단적으로 이야기하면은 우리눈에 보이는 파일들 자체가 하드링크다.
 
@@ -387,11 +393,11 @@ find ./ -name test -exec rm -rf {} \; : 현재위치에서 이름이 test인파�
 
 포맷이라는것은 '파일시스템'을 새로 생성하는것이고 이걸 새로 생성하기때문에 링크가 없어지는것이다.
 
-![image-20210215082445466](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215082445466.png)
+![image-20210215082445466](C:\Users\kjy59\Desktop\study\linux\linux_pic\32)
 
 하드링크는 특정파일 또는 디렉토리에 직접적으로 접근할수있도록 그 하드디스크상의 위치를 가리키는 파일이다.
 
-![image-20210215082823243](.\linux_pic\link)
+![image-20210215082823243](C:\Users\kjy59\Desktop\study\linux\linux_pic\33)
 
 심볼릭링크는 윈도우에서 바로가기 아이콘이랑 비슷한 개념이다. 하드디스크는 디스크상의 파일을 직접가리켰다면 심볼릭링크는 간접적으로 한번 거쳐서 가리킨다.
 
@@ -401,7 +407,7 @@ find ./ -name test -exec rm -rf {} \; : 현재위치에서 이름이 test인파�
 
 이 파일들이 하드링크일때 전부다 i-node의 주소가 같다.
 
-![image-20210215083716189](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215083716189.png)
+![image-20210215083716189](C:\Users\kjy59\Desktop\study\linux\linux_pic\34)
 
 
 
@@ -431,7 +437,7 @@ origin_cp의 i-node값은 다르다.
 
 ~~~
 
-![image-20210215084941690](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215084941690.png) 
+![image-20210215084941690](C:\Users\kjy59\Desktop\study\linux\linux_pic\35) 
 
 ##### 심볼릭링크만들기
 
@@ -490,13 +496,13 @@ kjy
 
 ### 권한의 이해와 설정방법
 
-![image-20210215090808590](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215090808590.png)
+![image-20210215090808590](C:\Users\kjy59\Desktop\study\linux\linux_pic\36) 
 
-![image-20210215090847178](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215090847178.png)
+![image-20210215090847178](C:\Users\kjy59\Desktop\study\linux\linux_pic\37) 
 
 권한도 파일시스템상에 존재한다.
 
-![image-20210215091010796](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215091010796.png)
+![image-20210215091010796](C:\Users\kjy59\Desktop\study\linux\linux_pic\38) 
 
 ~~~
 drwxr-xr--. 에서 .을 빼고 10개문자로 되어있다.
@@ -509,7 +515,7 @@ rwx / r-x / r-- 로 구분되는것이다.
 
 ~~~
 
-![image-20210215091322246](C:\Users\kjy59\Desktop\study\linux\linux_pic\permission)
+![image-20210215091322246](C:\Users\kjy59\Desktop\study\linux\linux_pic\39)
 
 ~~~
 위 이미지에서,
@@ -524,11 +530,11 @@ root사용자가 아니면 소유자가 아니기때문에 '소유자권한'쪽�
 
 #### 권한설정 방법
 
-![image-20210215092059470](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215092059470.png)
+![image-20210215092059470](C:\Users\kjy59\Desktop\study\linux\linux_pic\40)
 
 일반적으로 [권한]은 '옥텟모드'를 많이 쓴다.
 
-![image-20210215092149715](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215092149715.png)
+![image-20210215092149715](C:\Users\kjy59\Desktop\study\linux\linux_pic\41)
 
 만약에 전부다!! 주고 싶으면?
 
@@ -536,9 +542,9 @@ root사용자가 아니면 소유자가 아니기때문에 '소유자권한'쪽�
 chmod a file 이라고 한다.
 ~~~
 
-![image-20210215092241314](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215092241314.png)
+![image-20210215092241314](C:\Users\kjy59\Desktop\study\linux\linux_pic\42)
 
-![image-20210215092420811](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215092420811.png)
+![image-20210215092420811](C:\Users\kjy59\Desktop\study\linux\linux_pic\43)
 
 umask라는게 기본적으로 022로 설정되어있어서 파일과 디렉토리를 만들때 기본값이 위처럼 기본적으로 설정되어있다. 
 
@@ -552,11 +558,11 @@ umask 022
 
 라고 했을때 각각의 값에서 umask값을 and연산을 하면 위의 '기본권한'에 나타나는 숫자가 나온다.
 
-![image-20210215093224185](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215093224185.png)
+![image-20210215093224185](C:\Users\kjy59\Desktop\study\linux\linux_pic\44)
 
 ##### 실습할 내용(22강)
 
-![image-20210215093318212](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215093318212.png)
+![image-20210215093318212](C:\Users\kjy59\Desktop\study\linux\linux_pic\45)
 
 umask확인하기
 
@@ -599,9 +605,9 @@ chmod  640 dir
 drw-r-----. 1 root root 0 Feb 14 23:44
 ~~~
 
-![image-20210215094530441](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215094530441.png) 
+![image-20210215094530441](C:\Users\kjy59\Desktop\study\linux\linux_pic\46) 
 
-![image-20210215095211907](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215095211907.png) 
+![image-20210215095211907](C:\Users\kjy59\Desktop\study\linux\linux_pic\47) 
 
 파일을 읽을수있으려면 최소한! r권한이 있어야한다.
 
@@ -617,17 +623,17 @@ drw-r-----. 1 root root 0 Feb 14 23:44
 
 ### 특수 권한
 
-![image-20210215095644189](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215095644189.png)
+![image-20210215095644189](C:\Users\kjy59\Desktop\study\linux\linux_pic\48) 
 
-![image-20210215095907564](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215095907564.png) ![image-20210215100103645](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215100103645.png)
+![image-20210215095907564](C:\Users\kjy59\Desktop\study\linux\linux_pic\49) ![image-20210215100103645](C:\Users\kjy59\Desktop\study\linux\linux_pic\50)
 
-![image-20210215100214517](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215100214517.png)
+![image-20210215100214517](C:\Users\kjy59\Desktop\study\linux\linux_pic\51) 
 
 
 
 ##### 특수권한 실습내용
 
-![image-20210215100300733](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215100300733.png) 
+![image-20210215100300733](C:\Users\kjy59\Desktop\study\linux\linux_pic\52) 
 
 #### stickBit  권한 주기
 
@@ -653,13 +659,13 @@ ls 0l /etc/shadow
 
 ### Shell
 
-![image-20210215102123310](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215102123310.png)
+![image-20210215102123310](C:\Users\kjy59\Desktop\study\linux\linux_pic\53) 
 
 (방향재지정 메타문자가 중요함)
 
-![image-20210215102226559](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215102226559.png)
+![image-20210215102226559](C:\Users\kjy59\Desktop\study\linux\linux_pic\54) 
 
-![image-20210215102253473](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215102253473.png)
+![image-20210215102253473](C:\Users\kjy59\Desktop\study\linux\linux_pic\55) 
 
 명령어 히스토리 : 지금까지 친 명령어기억.
 
@@ -676,11 +682,11 @@ echo $SHELL
 
 #### 쉘 메타문자
 
-![image-20210215102717455](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215102717455.png)
+![image-20210215102717455](C:\Users\kjy59\Desktop\study\linux\linux_pic\56) 
 
-![image-20210215102741555](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215102741555.png) 
+![image-20210215102741555](C:\Users\kjy59\Desktop\study\linux\linux_pic\57) 
 
-![image-20210215102818243](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215102818243.png)
+![image-20210215102818243](C:\Users\kjy59\Desktop\study\linux\linux_pic\58) 
 
 파일이름이 띄어쓰기가 들어갔을때,
 
@@ -692,9 +698,9 @@ vi 'abc d'
 
 #### <중요> 방향 재지정 메타문자
 
-![image-20210215103144098](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215103144098.png)
+![image-20210215103144098](C:\Users\kjy59\Desktop\study\linux\linux_pic\59) 
 
-![image-20210215103234090](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215103234090.png)
+![image-20210215103234090](C:\Users\kjy59\Desktop\study\linux\linux_pic\60) 
 
 |의 예
 
@@ -703,15 +709,15 @@ grep root /etc/passwd
 = cat etc/passwd | grep root
 ~~~
 
-![image-20210215103654442](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215103654442.png)
+![image-20210215103654442](C:\Users\kjy59\Desktop\study\linux\linux_pic\61) 
 
 ### 사용자 초기화 파일
 
-![image-20210215103744257](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215103744257.png) 
+![image-20210215103744257](C:\Users\kjy59\Desktop\study\linux\linux_pic\62) 
 
-![image-20210215104017042](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215104017042.png) 
+![image-20210215104017042](C:\Users\kjy59\Desktop\study\linux\linux_pic\63) 
 
-![image-20210215104250926](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215104250926.png)
+![image-20210215104250926](C:\Users\kjy59\Desktop\study\linux\linux_pic\64) 
 
 ### KSH쉘 사용해보기
 
@@ -816,13 +822,13 @@ df -h | grep centos
 
 ### 프로세스 제어 - 이론
 
-![image-20210215111733368](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215111733368.png)
+![image-20210215111733368](C:\Users\kjy59\Desktop\study\linux\linux_pic\65) 
 
 윈도우에서 눈에 보이는곳(foreground) 동작하는 프로그램을 프로세스라고 부르고 background에서 동작하는 프로그램을 '서비스'라고 부른다.
 
-![image-20210215112007828](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215112007828.png)
+![image-20210215112007828](C:\Users\kjy59\Desktop\study\linux\linux_pic\66) 
 
-![image-20210215112100470](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215112100470.png)
+![image-20210215112100470](C:\Users\kjy59\Desktop\study\linux\linux_pic\67) 
 
 운영체제(예>윈도우)가 다른 프로세스,프로그램을 실행시켜준다.
 
@@ -852,19 +858,19 @@ pkill -9 sleep
 
 ### 압축 및 아카이브 - 이론
 
-![image-20210215115805359](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215115805359.png)
+![image-20210215115805359](C:\Users\kjy59\Desktop\study\linux\linux_pic\68) 
 
-![image-20210215115903207](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215115903207.png) 
+![image-20210215115903207](C:\Users\kjy59\Desktop\study\linux\linux_pic\69) 
 
 아카이브 : 파일저장용도로 사용된다.
 
-![image-20210215120328295](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215120328295.png)
+![image-20210215120328295](C:\Users\kjy59\Desktop\study\linux\linux_pic\70) 
 
-![image-20210215120603724](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215120603724.png) 
+![image-20210215120603724](C:\Users\kjy59\Desktop\study\linux\linux_pic\71) 
 
 자바기반의 파일을 jar아카이브형식으로 묶은거다.
 
-![image-20210215120645417](C:\Users\kjy59\AppData\Roaming\Typora\typora-user-images\image-20210215120645417.png)
+![image-20210215120645417](C:\Users\kjy59\Desktop\study\linux\linux_pic\72) 
 
 아카이브는 압축이 아니다. 그래서 용량을 줄이기위해서는 압축도 따로 해야 한다.
 
